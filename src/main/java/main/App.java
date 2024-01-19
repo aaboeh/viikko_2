@@ -25,6 +25,7 @@ public class App
                         String phrase = sc.nextLine();
                         if (phrase.isEmpty()) {
                             hedgehog.emptyString();
+                            break;
                         }
                         hedgehog.speak(phrase);
                         break;
